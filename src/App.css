@@ -1,0 +1,19 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+body {
+	background: #F2F2F2;
+	color: #fff;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+input,
+button {
+    outline: 0; /* tira a linha azul dos botoes e inputs*/
+}

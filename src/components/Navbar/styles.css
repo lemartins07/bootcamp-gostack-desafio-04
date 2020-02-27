@@ -1,0 +1,13 @@
+nav {
+  background:#4A90E2 ;
+  min-width: 725px;
+  height: 30px;
+  padding: 12px 30px;
+  line-height: 17px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+
+}
