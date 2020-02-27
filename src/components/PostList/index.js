@@ -60,6 +60,14 @@ export default class Main extends Component {
                 name: 'Lucas Alek',
               },              
               content: 'Comentário 2'             
+            },
+            {
+              id: 3,
+              author: {
+                name: 'Leandro Martins',
+                avatar: 'https://scontent.fpoa27-1.fna.fbcdn.net/v/t1.0-9/p960x960/43171577_1980305458692158_1299604434585649152_o.jpg?_nc_cat=105&_nc_sid=85a577&_nc_ohc=jsBMJ-wx5zEAX-k-Ak5&_nc_ht=scontent.fpoa27-1.fna&_nc_tp=6&oh=7a57cc00250e2666e6869a84116af331&oe=5EB6A4E8',
+              },
+              content: 'Comentário 3'
             }
           ]
         }
