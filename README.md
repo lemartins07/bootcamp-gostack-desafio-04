@@ -19,26 +19,29 @@ Nessa aplicação foi desenvolvida uma **interface** semelhante com a do **Faceb
 
 As informações contidas na interface são **estáticas** e não refletem nenhuma API REST ou back-end.
 
-### Tela da aplicação
-
-
-
 ## :rocket: Sobre a aplicação
 
-<p>
- É um app que consome os dados da API do Github. 
-</p>
+Foi criada uma aplicação do zero utilizando **Webpack, Babel, Webpack Dev Server e ReactJS**.
+Nessa aplicação foi desenvolvida uma **interface** semelhante com a do **Facebook** utilizando React.
+As informações contidas na interface são **estáticas** e não refletem nenhuma API REST ou back-end.
 
-<img src="https://github.com/lemartins07/bootcamp-gostack-05/blob/master/public/app_img.png" alt="bootcamp-gostack-05" />
 
-### **Funcionalidades**
+### Tela da aplicação
 
-Abaixo estão descritas as funcionalidades adicionadas na aplicação.
+<img src="https://github.com/lemartins07/bootcamp-gostack-desafio-04/blob/master/src/assets/desafio_04.png" alt="bootcamp-gostack-desafio-04" />
 
-- Através do input, é possivel adicionar um repositório na sua listagem.
-- Salva os repositórios no local storage do navegador.
-- Lista os issues de cada repositório. 
 
+### Componentes
+
+Na imagem abaixo destaquei cada componente que foi criado e abaixo está a descrição e responsabilidades de cada um:
+
+**Header (Amarelo):** Responsável por exibir a logo e o link para acessar o perfil;
+
+**PostList (Verde):** Responsável por armazenar os dados da listagem de post, esses dados estão dentro do `state` do componente e não em uma variável comum.
+
+**Post (Vermelho):** Responsável por exibir os dados do post, esses dados estão vindo através de uma propriedade recebida do componente PostList.
+
+**Comment (Azul):** Responsável por exibir um comentário. Os dados do comentário estão vindo por uma propriedade do componente Post. Dentro do componente Post você tem um novo `.map` para listar os comentários do post.
 
 ## 🚀 Instalação e execução
 
