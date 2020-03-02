@@ -9,5 +9,11 @@ nav {
   align-items: center;
   justify-content: space-between;
 
+  border: 6px solid #FFD004;
 
+
+}
+
+nav img {
+  height: 24px;
 }
