@@ -3,7 +3,7 @@
 </h1>
 
 <h3 align="center">
-  Primeiro projeto com ReactJS
+  Introdução ao ReactJS
 </h3>
 <p align="center">
   Código do quarto desafio do Bootcamp GoStack 🎓
